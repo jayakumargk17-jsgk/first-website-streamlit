@@ -441,7 +441,9 @@ elif st.session_state.page == "Internship Program":
     st.write("### 📝 How to Apply?")
     st.markdown("""
         <div class="card">
-            <p>Contact: jobs.market.all@gmail.com</p>
+            <p>Contact:</p><br>
+            <p>Email: jobs.market.all@gmail.com</p><br>
+            <p>link: training-freshers.streamlit.app</p>
             
         </div>
     """, unsafe_allow_html=True)
